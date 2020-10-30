@@ -130,7 +130,32 @@
                 <input type="submit">
             </form>
         </section>
-
+        <section>
+            <h1>Autocomplete y Require</h1>
+            <p>Oct-30</p>
+            <p>Aprendiendo a utilizar las etiquetas que ayudan al rellanar información a usuario automaticamente, en el
+                caso de que ya haya dado la información previamente. Y la etiqueta que le dice al usuario que aún falta
+                información por rellenar</p>
+            <form action="">
+                <label for="name">
+                    <span>Nombre</span>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+                </label>
+                <label for="email">
+                    <span>Correo</span>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </label>
+                <label for="country">
+                    <span>Pa&iacute;s</span>
+                    <input type="text" id="country" name="country" autocomplete="country" required> 
+                </label>
+                <label for="cp">
+                    <span>C&oacute;digo Postal</span>
+                    <input type="number" id="cp" name="cp" autocomplete="postal-code" required>
+                </label>
+                <input type="submit">
+            </form>
+        </section>
     </main>
     <footer>
 
