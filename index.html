@@ -147,7 +147,7 @@
                 </label>
                 <label for="country">
                     <span>Pa&iacute;s</span>
-                    <input type="text" id="country" name="country" autocomplete="country" required> 
+                    <input type="text" id="country" name="country" autocomplete="country" required>
                 </label>
                 <label for="cp">
                     <span>C&oacute;digo Postal</span>
@@ -155,6 +155,24 @@
                 </label>
                 <input type="submit">
             </form>
+        </section>
+        <section>
+            <h1>Select</h1>
+            <p>Oct-30</p>
+            <p>Aprendiendo a hacer casillas de opciones de dos maneras y aplicando la más efectiva</p>
+            <!-- <select name="pais" id="">
+                <option value="Colombia">Colombia</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Brazil">Brazil</option>
+            </select> -->
+            <input list="paises">
+            <datalist id="paises">
+                <option value="Colombia"></option>
+                <option value="Ecuador"></option>
+                <option value="Venezuela"></option>
+                <option value="Brazil"></option>
+            </datalist>
         </section>
     </main>
     <footer>
