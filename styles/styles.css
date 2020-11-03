@@ -1,0 +1,16 @@
+
+/* Etiqueta */
+img {
+    width: 30%;
+}
+video {
+    width: 30%;
+}
+/* clase */
+.clase {
+    color: blue;
+}
+/* id */
+#id {
+    color: green;
+}
