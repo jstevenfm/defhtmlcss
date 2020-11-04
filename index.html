@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Aprendiendo html y css con Platzi en el Curso Definitivo de Html y Css">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <h1>Index y su estructura básica: body</h1>
+        <p>Oct-26</p>
+        <p>Agregando las etiquetas básicas del body. Tanto las etiquetas <b>contenedoras</b> como las de
+            <b>contenido</b>.
+        </p>
+        <a href="#">Hola</a>
+        <h1>Reto: crea tu lista de compras del supermercado</h1>
+        <p>Oct-26</p>
+        <h2>Lista del supermercado</h2>
+        <ul>
+            <li>Carnes</li>
+            <ol>
+                <li> <a
+                        href="https://www.kiwilimon.com/receta/carnes-y-aves/pollo-con-salsa-cremosa-de-champinones">Pollo</a>
+                </li>
+                <img src="./imgs/mercado/pollo.jpg" alt="pollo">
+                <li> <a
+                        href="https://www.hogarmania.com/cocina/recetas/carnes/chuleta-cerdo-salsa-mango-17133.html">Cerdo</a>
+                </li>
+                <img src="./imgs/mercado/cerdo.jpg" alt="cerdo">
+                <li> <a href="https://www.recetasgratis.net/receta-de-carne-a-la-cerveza-6497.html">Res</a> </li>
+                <img src="./imgs/mercado/res.jpg" alt="res">
+            </ol>
+            <li>Frutas</li>
+            <ol>
+                <li>Lulo</li>
+                <img src="./imgs/mercado/lulo.jpg" alt="lulo">
+                <li>Guayaba</li>
+                <img src="./imgs/mercado/guayaba.jpg" alt="guayaba">
+                <li>Maracuyá</li>
+                <img src="./imgs/mercado/maracuya.jpg" alt="maracuya">
+            </ol>
+            <li>Verduras</li>
+            <ol>
+                <li>Zanahoria</li>
+                <img src="./imgs/mercado/zanahoria.jpg" alt="zanahoria">
+                <li>Cebollas</li>
+                <img src="./imgs/mercado/cebolla.jpg" alt="cebolla">
+                <li>Espinaca</li>
+                <img src="./imgs/mercado/espinaca.jpg" alt="espinaca">
+            </ol>
+        </ul>
+
+        <h1>Etiqueta img</h1>
+        <p>Oct-27</p>
+        <p>Aprendiendo a utilizar las etiquetas img-figure-picture de html.</p>
+        <p>Además, utilizando las paginas que dio como recursos el profesor Degranda.</p>
+        <section>
+            <figure>
+                <img src="./imgs/small.jpg" alt="Gato negro PEQUEÑO ">
+                <figcaption>El gato negro esta comgiendo la mano de la persona que esta en el Pc.</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h1>Etiqueta video</h1>
+            <p>Oct-29</p>
+            <p>Voy a utilizar la etiqueta video</p>
+            <video src="./vids/INSTRUCTIVO PARA INGRESAR.mp4#t=10,20" controls preload="auto"></video>
+        </section>
+        <section>
+            <h1>Etiqueta form e input</h1>
+            <p>Oct-29</p>
+            <p>Agregando etiquetas para generar un formulario</p>
+            <form action="">
+                <label for="name">
+                    <span>Nombre</span>
+                    <input type="text" id="name" placeholder="Nombre">
+                </label>
+                <label for="init-platzi">
+                    <span>Día inicio de suscripción</span>
+                    <input type="date" id="init-platzi">
+                </label>
+                <label for="horario">
+                    <span>Horario de estudio</span>
+                    <input type="time" id="horario">
+                </label>
+                <input type="submit">
+            </form>
+        </section>
+        <section>
+            <h1>Calendar</h1>
+            <p>Oct-30</p>
+            <p>Agregando etiquetas para hacer un formulario de calendario (Aprendí dos formas para hacer el formulario
+                estilo calendario). Además, agregando la etiqueta input de tipo
+                SUBMIT que genera un boton de enviar. Aprendí el atajo del teclado para generar un comentario
+                (ctrl+shift+Ao7/)
+
+            </p>
+            <!-- <form action="">
+                <label for="hora">
+                    <span>Hora</span>
+                    <input type="time" id="hora" name="hora">
+                </label>
+                <label for="dia">
+                    <span>D&iacute;a</span>
+                    <input type="date" id="dia" name="dia">
+                </label>
+                <label for="semana">
+                    <span>Semana</span>
+                    <input type="week" id="semana" name="semana">
+                </label>
+                <label for="mes">
+                    <span>Mes</span>
+                    <input type="month" id="mes" name="mes">
+                </label>
+                <input type="submit">
+            </form> -->
+            <form action="">
+                <label for="calendar">
+                    <span>Calendario</span>
+                    <input type="datetime-local" id="calendar" name="calendar">
+                </label>
+                <input type="submit">
+            </form>
+        </section>
+        <section>
+            <h1>Autocomplete y Require</h1>
+            <p>Oct-30</p>
+            <p>Aprendiendo a utilizar las etiquetas que ayudan al rellanar información a usuario automaticamente, en el
+                caso de que ya haya dado la información previamente. Y la etiqueta que le dice al usuario que aún falta
+                información por rellenar</p>
+            <form action="">
+                <label for="name">
+                    <span>Nombre</span>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+                </label>
+                <label for="email">
+                    <span>Correo</span>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </label>
+                <label for="country">
+                    <span>Pa&iacute;s</span>
+                    <input type="text" id="country" name="country" autocomplete="country" required>
+                </label>
+                <label for="cp">
+                    <span>C&oacute;digo Postal</span>
+                    <input type="number" id="cp" name="cp" autocomplete="postal-code" required>
+                </label>
+                <input type="submit">
+            </form>
+        </section>
+        <section>
+            <h1>Select</h1>
+            <p>Oct-30</p>
+            <p>Aprendiendo a hacer casillas de opciones de dos maneras y aplicando la más efectiva</p>
+            <!-- <select name="pais" id="">
+                <option value="Colombia">Colombia</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Brazil">Brazil</option>
+            </select> -->
+            <input list="paises">
+            <datalist id="paises">
+                <option value="Colombia"></option>
+                <option value="Ecuador"></option>
+                <option value="Venezuela"></option>
+                <option value="Brazil"></option>
+            </datalist>
+        </section>
+        <section>
+            <h1>Nov-02</h1>
+            <h3>Input type submit vs Button tag</h3>
+            <p>Existen dos tipos de botones. Uno es para los formularios (input type submit), el otro para cuealquiera
+                otro caso en el que se necesite un bot&oacute;n (button).</p>
+            <input type="submit" value="Otro">
+            <button>Hola</button>
+            <h1>CSS XD</h1>
+            <p>Enpzamos con el modulo de Css</p>
+            <h3>¿Cómo utilizamos CSS?: por etiqueta, selector, class y por ID</h3>
+            <p class="clase">Aplicando las primeras lineas de código en Css. Ya agregué estilos por etiqueta. Ahroa,
+                aplicando estilo   por clase</p>
+            <p id="id">Agregando estilos por Id</p>
+        </section>
+        <section>
+            <h1>Nov-03</h1>
+            <h3>Pseudo clases y Pseudo elementos</h3>
+            <p>Para aplicar los ejemplos dados en clase se creo un nuevo archivo. Para ver los conocimientos aplicados
+                ingresar al archivo <a href="./pseudoClase/pseudoclase.html">pseudoclase</a></p>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
