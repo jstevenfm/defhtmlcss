@@ -3,15 +3,18 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    background-color: #B2D8D8;
+}
+/* Header */
 .nav-content {
     margin: 5px;
-    padding: 1px;
+    padding: 2px;
     background-color: teal;
     border-radius: 3px;
     box-shadow: -2px 2px 3px 2px grey;
 }
-.nav-content .logo img {
+.nav-content .logo .picture {
     display: inline-block;
     position: relative;
     width: 50px;
@@ -31,3 +34,25 @@
     padding: 5px;
     text-align: center;
 }
+
+/* Aside */
+.boss {
+    margin: 10px;
+    padding: 2px;
+}
+.boss .left {
+    border-right: solid black 2px;
+    width: 20%;
+    margin-left: 50px;
+}
+.boss .left .list-left .imgsAside {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: solid grey 2px;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+/* Section */
