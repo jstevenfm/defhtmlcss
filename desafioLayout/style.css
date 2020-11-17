@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-content {
+    margin: 5px;
+    padding: 1px;
+    background-color: teal;
+    border-radius: 3px;
+    box-shadow: -2px 2px 3px 2px grey;
+}
+.nav-content .logo img {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+.nav-content .nav {
+    display: inline-block;
+    list-style: none;
+
+}
+.nav-content .nav li {
+    display: inline-block;
+    position: relative;
+    left: 72%;
+    margin: 5px;
+    padding: 0;
+}
