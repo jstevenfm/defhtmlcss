@@ -13,22 +13,21 @@
 }
 .nav-content .logo img {
     display: inline-block;
-    margin: 0;
-    padding: 0;
-    width: 30px;
-    height: 30px;
     position: relative;
-    top: 5px;
+    width: 50px;
+    height: 50px;
 }
 .nav-content .nav {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 2%; right: 2%;
     display: inline-block;
-    list-style: none;
-
 }
 .nav-content .nav li {
     display: inline-block;
-    position: relative;
-    left: 72%;
+    list-style: none;
     margin: 5px;
-    padding: 0;
+    padding: 5px;
+    text-align: center;
 }
