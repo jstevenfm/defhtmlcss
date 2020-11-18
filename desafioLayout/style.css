@@ -14,6 +14,11 @@ body {
     border-radius: 3px;
     box-shadow: -2px 2px 3px 2px grey;
 }
+.nav-content .logo {
+    display: inline;
+    position: relative;
+    left: 1%; top: 3px;
+}
 .nav-content .logo .picture {
     display: inline-block;
     position: relative;
@@ -33,6 +38,10 @@ body {
     margin: 5px;
     padding: 5px;
     text-align: center;
+}
+.nav-content .nav li a {
+    color: white;
+    text-decoration: none;
 }
 
 /* Aside */
