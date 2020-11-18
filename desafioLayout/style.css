@@ -50,9 +50,14 @@ body {
     padding: 2px;
 }
 .boss .left {
+    display: inline-block;
     border-right: solid black 2px;
-    width: 20%;
-    margin-left: 50px;
+    width: 13%;
+    margin: 1%;
+}
+.boss .left .list-left {
+    margin: 5%;
+    padding: 3%;
 }
 .boss .left .list-left .imgsAside {
     display: block;
