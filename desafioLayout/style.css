@@ -62,3 +62,29 @@ body {
 }
 
 /* Section */
+.boss .cont-principal {
+    display: inline-block;
+    position: absolute;
+    margin: 1%;
+    width: 82%;
+    height: 85%;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+.boss .cont-principal .list-art {
+    margin: 150px;
+    margin-left: 250px;
+}
+.boss .cont-principal .list-art .art-content {
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+    border: solid grey 2px;
+    border-radius: 5px;
+}
+.boss .cont-principal .list-art .art-content img {
+    width: 150px;
+    height: 150px;
+    margin: 50px 10px;
+
+}
