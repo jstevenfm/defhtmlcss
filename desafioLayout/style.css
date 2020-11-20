@@ -76,7 +76,7 @@ body {
     position: absolute;
     margin: 1%;
     width: 82%;
-    height: 85%;
+    height: 76.5%;
     border: solid black 2px;
     border-radius: 5px;
 }
@@ -96,4 +96,31 @@ body {
     height: 150px;
     margin: 50px 10px;
 
+}
+
+/* Footer */
+.final-inf {
+    background-color: #20639b;
+    border-radius: 5px;
+    padding: 5px;
+}
+.final-inf .cont-icon {
+    display: inline-block;
+    position: relative;
+    left: 20rem;
+}
+.final-inf .cont-icon .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    padding-right: 5px;
+}
+
+.final-inf .phrase {
+    display: inline-block;
+    position: absolute;
+    right: 10rem;
+    bottom: -3rem;
+    font-size: 18px;
+    font-family: cursive;
 }
