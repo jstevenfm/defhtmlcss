@@ -38,6 +38,7 @@ body {
     margin: 5px;
     padding: 5px;
     text-align: center;
+    font-size: 18px;
 }
 .nav-content .nav li a {
     color: white;
