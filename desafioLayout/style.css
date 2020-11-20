@@ -52,8 +52,7 @@ body {
 }
 .boss .left {
     display: inline-block;
-    border: solid black 2px;
-    border-radius: 5px;
+    border-right: solid black 2px;
     width: 13%;
     margin: 1%;
 }
@@ -78,8 +77,6 @@ body {
     margin: 1%;
     width: 82%;
     height: 76.5%;
-    border: solid black 2px;
-    border-radius: 5px;
 }
 .boss .cont-principal .list-art {
     margin: 150px;
