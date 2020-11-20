@@ -52,7 +52,7 @@ body {
 }
 .boss .left {
     display: inline-block;
-    border-right: solid black 2px;
+    border-right: solid black 3px;
     width: 13%;
     margin: 1%;
 }
